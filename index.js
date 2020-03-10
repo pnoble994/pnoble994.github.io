@@ -233,7 +233,11 @@ window.onload = function(){
       updateTodos(index,_index,_update)
       id++
       inDiv.css("display","flex")
+      if(todo.completed===true){
+          displayCompleted(todo.todo)
+         }else{
       displayTodos(todo.todo)
+    }
       updateCount()
     })
   } else { //if nothing exist in storage, keep todos array empty

@@ -1,0 +1,185 @@
+html{
+  box-sizing: border-box;
+  font-family: "Spartan",sans-serif;
+}
+
+#main-form{
+  margin-top:40%;
+}
+#main-input{
+  border-radius: 10px;
+}
+.appendedList{
+  list-style:none;
+  padding:2px 2px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.appendedList p {
+  margin-top: 17px;
+  vertical-align: middle;
+  font-family: 'Noto Serif KR ', serif;
+  color:yellow
+
+}
+
+#list-items{
+  padding:5px 5px;
+  display:block;
+  width:auto;
+}
+
+#tiny{
+display:block;
+width:1px;
+height:1px
+}
+
+
+.nicelabel{
+  border:1.5px solid #57df5a;
+  border-radius:50%;
+  width:1.3em;
+  height:1.3em;
+  display:flex;
+  margin:0;
+  padding:0;
+  background:#fde65d;
+  align-items: center;
+  }
+
+
+
+  .lastlabel{
+    display: flex;
+    flex-direction: column;
+    border:1px solid yellow;
+    left:70%;
+    align-items: center;
+    width:1.5em;
+    height:1.5em;
+    border-radius: 50%;
+    position: absolute;
+    color:yellow
+  }
+
+
+.nicelabel:active {
+      color: #d3d3d3;
+    background:blue
+}
+
+  .form-inner{
+    display: flex;
+    border:0.5px solid yellow;
+    align-items: center;
+    overflow: hidden;
+    background:green;
+  }
+
+  #innerStatic{
+    display:flex;
+    flex-direction:row;
+    height:3em;
+    align-items: center;
+    background: green
+  }
+  #innerStatic{
+    display:none
+  }
+  #in{
+    width:60%;
+    display: flex;
+    justify-content:space-around;
+    margin-left: 10%
+  }
+  #out1{
+    border:1px solid yellow;
+    border-radius:40%;
+    width:auto;
+    height:1.5em;
+    padding:0px 5px;
+    text-align:center;
+    vertical-align: middle;
+    font-family: "Spartan",sans-serif;
+    color:green;
+  }
+  #out2,#out3{
+    border-radius:40%;
+    width:auto;
+    height:1.5em;
+    padding:0px 5px;
+    text-align:center;
+    vertical-align: middle;
+    color: yellow;
+    border:1px solid yellow;
+    font-family: "Spartan",sans-serif;
+
+  }
+
+
+
+input[type="text"]{
+  background: green
+}
+input[type="text"]:focus{
+  background: green
+}
+
+input[type="text"]::placeholder{
+  font-family: "Spartan",sans-serif;
+  color:yellow;
+  opacity:1;
+  font-style: italic;
+}
+
+   #in label,input[type = "text"]{
+    color:yellow
+  }
+
+  .destroy,.nicelabel input{
+    width:1px;
+    height: 1px
+  }
+
+  #form-group{
+    max-width:80%
+  }
+  #col{
+    margin:0 auto;
+  }
+
+  .change{
+    text-decoration: line-through;
+    text-decoration-color:yellow;
+    opacity:0.5
+  }
+
+   #todoCount{
+    border:1px solid red;
+    width:30%;
+
+  }
+
+  #in input{
+    width:1px;
+    height:1px
+  }
+
+#itemDiv p{
+  margin-top: 1em;
+  font-family: 'Spartan', sans-serif;
+  font-size:1em;
+  color:yellow
+
+  }
+
+  .midlabel{
+    margin-left:1em;
+  }
+  .midlabel p{
+    font-family: "Spartan",sans-serif;
+  }
